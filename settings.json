@@ -1,0 +1,52 @@
+{
+	"workbench.colorTheme": "Default High Contrast",
+	"workbench.iconTheme": "vscode-icons",
+	"git.autofetch": true,
+	"security.workspace.trust.untrustedFiles": "open",
+	"al.enableCodeActions": true,
+	"errorLens.messageTemplate": "$message [$code]",
+	"alOutline.completionProviders": [
+		"VariableDataTypes",
+		"VariableNames",
+		"VariableNamesWithType"
+	],
+	"editor.stickyScroll.enabled": true,
+	"vscode-pets.petType": "fox",
+	"vscode-pets.petSize": "medium",
+	"vscode-pets.petColor": "black",
+	"vscode-pets.throwBallWithMouse": true,
+	"git.openRepositoryInParentFolders": "always",
+	"breadcrumbs.enabled": false,
+	"editor.inlineSuggest.enabled": true,
+	"errorLens.excludeBySource": [
+		"AL(AL0573)"
+	],
+	"diffEditor.ignoreTrimWhitespace": false,
+	"terminal.integrated.env.windows": {},
+	"al.inlayhints.functionReturnTypes.enabled": true,
+	"al.inlayhints.parameterNames.enabled": true,
+	"editor.inlayHints.enabled": "on",
+	"editor.fontFamily": "",
+	"editor.inlayHints.fontSize": 3,
+	"editor.inlayHints.padding": false,
+	"window.zoomLevel": 1,
+	"gitlens.ai.model": "vscode",
+	"gitlens.ai.vscode.model": "copilot:gpt-4o",
+	"github.copilot.chat.codeGeneration.instructions": [
+		{
+			"text": "When you answer me always do it in Spanish using a childish, friendly tone and give me a funny and affectionate nickname, each time use a different one, for example: Holi Puputi."
+		},
+		{
+			"text": "when you generate code don't explain it to me."
+		},
+		{
+			"text": "All code must be written in English."
+		},
+		{
+			"text": "Avoid adding redundant or unhelpful comments."
+		},
+		{
+			"text": "the comment of the commit must be in Spanish following the structure Type - Description abbreviated. Example: Correction - Vat Calculation."
+		}
+	]
+}
