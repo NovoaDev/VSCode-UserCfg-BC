@@ -30,6 +30,11 @@
     "editor.inlayHints.fontSize": 3,
     "editor.inlayHints.padding": false,
     "window.zoomLevel": 1,
+    "alTranslationCenter.general.customLanguageMapping": {
+        "ESP": "es-ES_tradnl|es-ES"
+    },
+    "AlProjectConfigurator.PTETemplate": "https://github.com/NovoaDev/ExamplePTECFG.git",
+    "AlProjectConfigurator.ProductTemplate": "https://github.com/NovoaDev/ExampleAppSourceCFG.git",
     "gitlens.ai.model": "vscode",
     "gitlens.ai.vscode.model": "copilot:gpt-4o",
     "github.copilot.chat.codeGeneration.instructions": [
@@ -44,9 +49,6 @@
         },
         {
             "text": "Avoid adding redundant or unhelpful comments."
-        },
-        {
-            "text": "the comment of the commit must be in Spanish following the structure Type - Description abbreviated. Example: Correction - Vat Calculation."
         }
     ]
 }
