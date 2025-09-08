@@ -30,6 +30,30 @@
     "editor.inlayHints.fontSize": 3,
     "editor.inlayHints.padding": false,
     "window.zoomLevel": 1,
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,
+     "todohighlight.keywords": [
+    {
+      "text": "TOMIGRATE:",
+      "color": "Blue",
+      "border": "1px solid Blue",
+      "borderRadius": "2px",
+      "backgroundColor": "White"
+    },
+        {
+      "text": "TOBURN:",
+      "color": "red",
+      "border": "1px solid red",
+      "borderRadius": "2px",
+      "backgroundColor": "White"
+    }
+  ],
+  "todo-tree.general.tags": [
+    "TODO",
+    "FIXME",
+    "TOMIGRATE",
+    "TOBURN"
+  ],
     "alTranslationCenter.general.customLanguageMapping": {
         "ESP": "es-ES_tradnl|es-ES"
     },
@@ -50,5 +74,17 @@
         {
             "text": "Avoid adding redundant or unhelpful comments."
         }
-    ]
+    ],
+    "github.copilot.chat.scopeSelection": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "github.copilot.chat.codesearch.enabled": true,
+    "github.copilot.chat.agent.thinkingTool": true,
+    "github.copilot.chat.editor.temporalContext.enabled": true,
+    "github.copilot.chat.edits.temporalContext.enabled": true,
+    "github.copilot.chat.enableRetryAfterFilteredResponse": true,
+    "editor.defaultFormatter": "ms-dynamics-smb.al",
+    "al.algoSuggestedFolder": "D:/Repositorios",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
 }
